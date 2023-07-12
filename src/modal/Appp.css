@@ -1,0 +1,20 @@
+.psv-navbar{
+  display: block !important;
+  background: none !important;
+}
+.ant-modal-content{
+  background: none !important;
+  border-radius: none !important ;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.ant-modal{
+  width: 86% !important;
+  padding: 0 !important;
+}
+.ant-modal-footer{
+  display: none !important;
+}
+.psv-canvas {
+  margin-top: 50px;
+}

@@ -1,0 +1,197 @@
+.ant-modal-mask{
+    background-color: rgba(0, 0, 0, 0.959) !important;
+
+}
+.ant-modal-close{
+    color: #ffffff !important;
+}
+.formtitle{
+    color: rgba(255, 255, 255, 1);
+    font-size: 45px;
+    font-family: 'Times New Roman Italic';
+    text-transform: capitalize;
+}
+.formtext{
+    font-size: 16px;
+    font-family: 'Montserrat-Regular';
+    color: rgba(255, 255, 255, 1);
+}
+.web{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+.telegtext{
+    color: rgba(243, 242, 239, 1);
+    font-family: 'Montserrat-Regular';
+    margin: 0 5px;
+}
+.tecont, .whacont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+.right{
+    width: 30%;
+    margin: 0 30px;
+}
+.webcontent{
+    display: flex;
+    justify-content: space-evenly;
+}
+.brochureall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainsform{
+    margin-top: 50px;
+}
+.broslef{
+    top: 115px;
+    text-align: center;
+    width: 425px;
+    margin: 0 16px;
+}
+.inputs{    
+    border-bottom: 1px solid #EFF0F6;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+    outline-color: #FFFFFF;padding: 0 15px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(243, 242, 239, 1);
+    font-family: 'Montserrat-Regular';
+    overflow: hidden;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .center h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+  }
+  
+  .center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  
+  form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+  }
+  
+  .txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  .txt_field span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    transition: 0.3s;
+  }
+  
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label {
+    top: -5px;
+    color: #ffffff;
+  }
+  
+  .txt_field input:focus ~ span::before,
+  .txt_field input:valid ~ span::before {
+    width: 100%;
+  }
+  
+
+.submit {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    outline: none;
+    cursor: pointer;
+  }
+.labeltext{
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+.submit:hover {
+    border-color: rgba(0, 0, 0, 1);
+    transition: 0.5s;
+  }
+  @media(max-width:1111px){
+    .formtitle {
+        font-size: 44px;
+    }
+    
+  }
+  @media(max-width:910px){
+    .formtitle {
+        font-size: 44px;
+    }
+    .brochureall{
+        flex-direction: column;
+    }
+    .right {
+        width: 58%;
+    }
+    .formtext {
+        font-size: 15px;
+    }
+  }
+  @media(max-width:695px){
+    .formtitle {
+        font-size: 43px;
+    }
+    .right {
+        width: 67%;
+    }
+    .formtext {
+        font-size: 14px;
+    }
+  }
+  @media(max-width:570px){
+
+    .right {
+        width: 75%;
+    }
+
+  }

@@ -1,0 +1,25 @@
+@media(max-width:1111px){
+  .header__all{
+    bottom: 240px;
+    left: 100px;
+}
+.header_second{
+  bottom: 290px;
+  left: 415px;
+}
+.header_third{
+  top: 185px;
+  right: 165px;
+}
+.header_fourth{
+  bottom: 145px;
+  right: 270px;
+}
+.header__fifth{
+    bottom: 50px;
+    left: 90px;
+}
+.buttonrp {
+  font-size: 13px;
+}
+}

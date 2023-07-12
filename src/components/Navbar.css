@@ -1,0 +1,161 @@
+.navbar{
+    display: flex;
+    /* background-color: blueviolet; */
+}
+.content{
+    margin: 0 30px;
+}
+.navtitle{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat-SemiBold';
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.pnav{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.text{
+    border-right: 1px solid rgba(255, 255, 255, 1);
+    padding: 0 10px;
+    height: 44px;
+}
+.vect{
+    width: 39px;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    width: 95%;
+    top: 0;
+    margin-top: 20px;
+}
+.whatsapp, .telegram{
+    width: 30px;
+    margin: 4px 10px;
+    
+}
+.telall{
+    display: flex;
+    align-items: center;
+
+}
+.number{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat-Regular';
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 5px 10px;
+
+}
+.telnumber{
+    border-left: 1px solid rgba(255, 255, 255, 1);
+    height: 44px;
+}
+.icons{
+    border-left: 1px solid rgba(255, 255, 255, 1);
+    height: 44px;
+}
+.icons{
+    display: flex;
+}
+.webs{
+    width: 30px;
+    margin: 4px 10px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+.web{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+@media(max-width:1111px)
+{
+    .navtitle {
+        font-size: 19px;
+    }
+    .pnav {
+        font-size: 11px;
+    }
+    .webs {
+        font-size: 27px;
+    }
+    .number {
+        font-size: 17px;
+    }
+}
+@media(max-width:910px){
+    .text {
+        border-right: none;
+    }
+    .navtitle {
+        font-size: 18px;
+    }
+    .pnav {
+        font-size: 10px;
+    }
+    .webs {
+        font-size: 26px;
+    }
+    .number {
+        font-size: 16px;
+    }
+}
+@media(max-width:776px){
+
+    .navtitle {
+        font-size: 17px;
+    }
+    .pnav {
+        font-size: 9px;
+    }
+    .webs {
+        font-size: 25px;
+    }
+    .number {
+        font-size: 15px;
+    }
+    .icons{
+        border-left: none;
+    }
+}
+@media(max-width:642px){
+
+    .navtitle {
+        font-size: 16px;
+    }
+    .pnav {
+        font-size: 8px;
+    }
+    .webs {
+        font-size: 24px;
+    }
+    .number {
+        font-size: 14px;
+    }
+    .icons{
+        flex-direction: column;
+    }
+}
+@media(max-width:564px){
+
+    .navtitle {
+        font-size: 15px;
+    }
+    .pnav {
+        font-size: 7px;
+    }
+    .webs {
+        font-size: 23px;
+    }
+    .number {
+        font-size: 13px;
+    }
+    .icons{
+        flex-direction: column;
+    }
+}

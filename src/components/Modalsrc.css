@@ -1,0 +1,132 @@
+.buttonall{
+    display: flex;
+    background-color: rgba(0, 0, 0, 1);
+    align-items: center;
+}
+.buttondownload{
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding: 5px 30px;
+    border: none;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+}
+.buttonlp{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2px;
+    margin: 2px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat-SemiBold';
+    font-size: 14px;
+    width: 26px;
+    /* margin-bottom: 0px; */
+}
+.buttonrp{
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding: 2px 12px;
+}
+.buttonleft{
+    padding: 0;
+    margin: 0;
+}
+.download{
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0 8px;
+}
+.download::before{
+    content: '\f175';
+}
+.header__all{
+    bottom: 315px;
+    left: 140px;
+}
+.header_second{
+    bottom: 335px;
+    left: 500px;
+}
+.header_third{
+    top: 235px;
+    right: 280px;
+}
+.header_fourth{
+    bottom: 185px;
+    right: 425px; 
+}
+.header__fifth{
+    bottom: 50px;
+    left: 90px;
+}
+.avatarbtn{
+    border: none !important;
+    }
+    @media(max-width:1111px){
+        .header__all {
+            bottom: 240px;
+            left: 95px;
+        }
+        .header_second{
+            bottom: 275px;
+            left: 390px;
+        }
+        .header_third{
+            top: 185px;
+            right: 170px;
+        }
+        .header_fourth{
+            bottom: 135px;
+            right: 275px;
+        }
+        .header__fifth{
+            bottom: 40px;
+            left: 70px;
+        }
+        .buttonrp {
+            font-size: 14px;
+        }
+        .buttonlp {
+            font-size: 13px;
+    }
+    }
+    @media(max-width:910px){
+        .header__all {
+            bottom: 230px;
+            left: 85px;
+        }
+        .header__fifth {
+            bottom: 35px;
+            left: 60px;
+        }
+        .header_second {
+            bottom: 280px;
+            left: 320px;
+        }
+        .header_fourth {
+            bottom: 135px;
+            right: 210px;
+        }
+        .header_third {
+            top: 190px;
+            right: 115px;
+        }
+        .buttonrp {
+            font-size: 13px;
+        }
+        .buttonlp {
+            font-size: 12px;
+    }
+    }
+
+
+
+
+
+
+    

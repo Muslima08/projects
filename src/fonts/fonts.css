@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('./Montserrat/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('./Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('./Montserrat/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Times New Roman Italic';
+    src: url('./Montserrat/ofont.ru_Times\ New\ Roman.ttf');
+}
+
+.fad{
+    font-family: 'FA-duotone';
+    font-weight: 900;
+    font-style: normal;
+}
+.fab{
+    font-family: 'FA-brands';
+    font-weight: 400;
+    font-style: normal;
+}
+.fa, .fas, .far, .fal{
+    font-family:'FA';
+    font-style: normal;
+
+}
